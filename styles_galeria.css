@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
+    max-width: 100%;
     width: 70%;
     margin: 0 auto;
 }
@@ -77,7 +78,12 @@ footer {
 }
 
 .galeria img {
-    width: 200px; /* Largura fixa para as imagens */
-    height: 200px; /* Altura fixa para as imagens */
-    margin: 10px; /* Espaçamento entre as imagens */
+    width: 200px; 
+    height: 200px; 
+    margin: 10px; 
+}
+@media (max-width: 600px) {
+    main {
+        padding: 10px; 
+    }
 }
